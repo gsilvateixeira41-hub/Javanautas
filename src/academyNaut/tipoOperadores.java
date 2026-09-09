@@ -28,7 +28,31 @@ public class tipoOperadores {
         }else{
             System.out.println("não estudante");
         }
-
+// += -= += /= %=
+        double bonus = 2000;
+        bonus+=1999;
+        System.out.println(bonus);
+        System.out.println();
+        bonus-=1000;
+        System.out.println(bonus);
+        System.out.println();
+        bonus /= 2;
+        System.out.println(bonus);
+        System.out.println();
+        bonus%=3;
+        System.out.println(bonus);
+        System.out.println();
+        bonus *=5;
+        System.out.println(bonus);
+        System.out.println();
+    // ++ --
+        int contador = 0;
+        contador+=1;
+        System.out.println(contador);
+        System.out.println();
+        System.out.println(++contador);
+        System.out.println();
+        System.out.println(--contador);
 
     }
 }
